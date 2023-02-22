@@ -39,6 +39,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <mysql.driver.version>5.1.47</mysql.driver.version>
+        <clickhouse.driver.version>0.4.0</clickhouse.driver.version>
     </properties>
 
     <modules>
@@ -79,6 +80,7 @@
         <module>loghubreader</module>
         <module>datahubreader</module>
         <module>starrocksreader</module>
+        <module>clickhousereader</module>
 
         <!-- writer -->
         <module>mysqlwriter</module>
@@ -127,7 +129,7 @@
         <!-- common support module -->
         <module>plugin-rdbms-util</module>
         <module>plugin-unstructured-storage-util</module>
-       
+
     </modules>
 
     <dependencyManagement>
